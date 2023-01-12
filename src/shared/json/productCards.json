@@ -1,0 +1,48 @@
+{
+  "products": [
+    {
+      "key": 0,
+      "title": "Professional Indemnity",
+      "image": "/assets/images/pro_indemnity.svg",
+      "alt": "Professional Indemnity",
+      "selected": false
+    },
+    {
+      "key": 1,
+      "title": "Management liability",
+      "image": "/assets/images/manage_liability.svg",
+      "alt": "Management liability",
+      "selected": false
+    },
+    {
+      "key": 2,
+      "title": "Cyber Liability",
+      "image": "/assets/images/cyber_liability.svg",
+      "alt": "Cyber Liability",
+      "selected": false
+    }
+  ],
+  "moreProducts": [
+    {
+      "key": 0,
+      "title": "HealthCare Liability",
+      "image": "/assets/images/healthCare_liability.svg",
+      "alt": "HealthCare Liability",
+      "selected": false
+    },
+    {
+      "key": 1,
+      "title": "CLE Expenses",
+      "image": "/assets/images/cle_expenses.svg",
+      "alt": "CLE Expenses",
+      "selected": false
+    },
+    {
+      "key": 2,
+      "title": "General Liability",
+      "image": "/assets/images/general_liability.svg",
+      "alt": "General Liability",
+      "selected": false
+    }
+  ]
+}
