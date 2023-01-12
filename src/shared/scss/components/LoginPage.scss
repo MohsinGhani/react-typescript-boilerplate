@@ -1,0 +1,101 @@
+.loginPage_container {
+  width: 100%;
+  height: 860px;
+  .loginpage_content {
+    position: relative;
+    .loginPage_bgImage {
+      width: 100%;
+      img {
+        padding: 84px 0px;
+      }
+    }
+    .loginPage_form {
+      width: 50%;
+      height: 860px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .loginPage_cardHeader {
+        display: flex;
+        align-items: center;
+        .MuiTypography-h3 {
+          font-size: 24px;
+          font-family: "Poppins", sans-serif;
+          font-weight: 600;
+          padding-left: 8px;
+          color: #474848;
+        }
+      }
+      .loginPage_account_header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+        .MuiTypography-h3 {
+          font-size: 24px;
+          font-family: "Poppins", sans-serif;
+          font-weight: 600;
+          padding-left: 8px;
+          color: #474848;
+        }
+        .MuiTypography-subtitle1 {
+          font-family: "Poppins", sans-serif;
+          font-weight: 400;
+          color: #474848;
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+      .loginPage_loginInput {
+        margin-top: 25px;
+        .MuiFormControl-root {
+          background-color: #f5f5f5;
+          .MuiFormLabel-root {
+            font-family: "Poppins", sans-serif;
+          }
+        }
+        .MuiFormControl-root {
+          width: 100%;
+          margin-bottom: 18px;
+          .MuiInputBase-root {
+            font-family: "Poppins", sans-serif;
+          }
+        }
+        .loginPage_forgotPass {
+          display: flex;
+          justify-content: flex-end;
+          margin-bottom: 36px;
+          .MuiTypography-subtitle1 {
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            color: #474848;
+            text-decoration: underline;
+            cursor: pointer;
+            text-align: right;
+          }
+        }
+      }
+      .loginPage_loginButton {
+        display: flex;
+        justify-content: center;
+        a {
+          text-decoration: none;
+        }
+        .MuiButtonBase-root {
+          background: #81b849;
+          color: white;
+          font-family: "Poppins", sans-serif;
+          text-transform: none;
+          border: none;
+          border-radius: 20px;
+          width: 135px;
+          height: 26px;
+          padding: 0;
+        }
+      }
+    }
+  }
+}
